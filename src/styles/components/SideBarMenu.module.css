@@ -1,0 +1,41 @@
+.sideBarMenuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 112px;
+    height: 100vh;
+    padding: 32px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 1) 100%);
+    filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
+    position: fixed;
+    z-index: 10;
+}
+
+.navIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
+.navIcons a:last-child {
+    cursor: not-allowed;
+}
+
+@media (max-width: 1023px) {
+    .sideBarMenuContainer {
+        width: 100%;
+        height: 80px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navIcons {
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    }
+}
