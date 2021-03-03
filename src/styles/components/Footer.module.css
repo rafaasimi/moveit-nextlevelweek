@@ -1,0 +1,18 @@
+.footerContainer {
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 15px;
+    border-top: 1px solid var(--gray-line);
+    font-size: 0.875rem;
+}
+
+.footerContainer p a {
+    color: var(--blue);
+    font-weight: 600;
+    transition: .2s;
+}
+
+.footerContainer p a:hover {
+    color: var(--blue-dark);
+
+}
