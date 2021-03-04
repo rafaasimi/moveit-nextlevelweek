@@ -27,7 +27,7 @@ $ git clone https://github.com/rafaasimi/moveit-nextlevelweek.git
 $ cd moveit-nextlevelweek
 
 # Instale as dependências
-$ cd yarn install
+$ yarn install
 
 # Inicie o projeto
 $ yarn dev
